@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystem.Core", "PaymentSystem.Core\PaymentSystem.Core.csproj", "{3250928B-3503-447B-8774-D927AABE2BDD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystem.Core.Tests", "Tests\PaymentSystem.Core.Tests\PaymentSystem.Core.Tests.csproj", "{293E7D01-573C-4F22-926A-4903B442FFAB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{91306B4D-D28C-4B94-B39A-72D3CC40F02C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{3250928B-3503-447B-8774-D927AABE2BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3250928B-3503-447B-8774-D927AABE2BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3250928B-3503-447B-8774-D927AABE2BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293E7D01-573C-4F22-926A-4903B442FFAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293E7D01-573C-4F22-926A-4903B442FFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293E7D01-573C-4F22-926A-4903B442FFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293E7D01-573C-4F22-926A-4903B442FFAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{293E7D01-573C-4F22-926A-4903B442FFAB} = {91306B4D-D28C-4B94-B39A-72D3CC40F02C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {50A87E72-8F7B-40C7-A72B-E351FCDE6D3C}
