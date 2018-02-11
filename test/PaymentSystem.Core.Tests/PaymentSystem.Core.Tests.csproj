@@ -13,7 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\PaymentSystem.Core\PaymentSystem.Core.csproj" />
+    <ProjectReference Include="..\..\src\PaymentSystem.Core\PaymentSystem.Core.csproj" />
   </ItemGroup>
 
 </Project>

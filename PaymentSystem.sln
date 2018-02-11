@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystem.Core", "PaymentSystem.Core\PaymentSystem.Core.csproj", "{3250928B-3503-447B-8774-D927AABE2BDD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystem.Core", "src\PaymentSystem.Core\PaymentSystem.Core.csproj", "{3250928B-3503-447B-8774-D927AABE2BDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystem.Core.Tests", "Tests\PaymentSystem.Core.Tests\PaymentSystem.Core.Tests.csproj", "{293E7D01-573C-4F22-926A-4903B442FFAB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystem.Core.Tests", "test\PaymentSystem.Core.Tests\PaymentSystem.Core.Tests.csproj", "{293E7D01-573C-4F22-926A-4903B442FFAB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{91306B4D-D28C-4B94-B39A-72D3CC40F02C}"
 EndProject
