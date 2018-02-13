@@ -1,4 +1,4 @@
-﻿using System;
+﻿ using System;
 
 namespace PaymentSystem.Core.Models
 {
@@ -6,22 +6,7 @@ namespace PaymentSystem.Core.Models
     {
         void Validate();
         void Execute();
-    }
-
-    public class AddEmployeeTransaction : ITransaction
-    {
-        public Employee Employee { get; set; }
-
-        public void Validate()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Execute()
-        {
-            throw new NotImplementedException();
-        }
-    }
+    } 
 
     public abstract class EmployeeBased
     {
